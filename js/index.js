@@ -101,33 +101,33 @@ $(function(){
         $('.imgbox').css({display:'none'});
     });
     //================================简介雪景=========================
-    var arr=[];
-    var jianjie=$(".jianjie");
-    var jianjieW=jianjie.width();
-    var jianjieH=jianjie.height();
-    for(var i=0;i<1500;i++){
-        var div=document.createElement("div");
-        var lefts=10+(jianjieW-20)*Math.random();
-        var time=3*Math.random();
-        div.style.cssText="width:2px;height:2px;border-radius:50%;background:white;position:absolute;left:"+lefts+"px;top:-20px;transition:top 3s linear "+time+"s;-webkit-filter:blur(0.5px)";
-        jianjie[0].appendChild(div);
-        arr.push(div);
-    }
-    setTimeout(function(){
-        for(var i=0;i<arr.length;i++){
-            arr[i].style.top=jianjieH+"px";
-            arr[i].addEventListener("webkitTransitionEnd",function(){
-                this.style.transition="none";
-                this.style.top="-20px";
-                var time=3*Math.random();
-                var that=this;
-                setTimeout(function(){
-                    that.style.transition="top 2s linear "+time+"s";
-                    that.style.top=jianjieH+"px";
-                },0)
-            },false)
-        }
-    },0)
+    //var arr=[];
+    //var jianjie=$(".jianjie");
+    //var jianjieW=jianjie.width();
+    //var jianjieH=jianjie.height();
+    //for(var i=0;i<1500;i++){
+    //    var div=document.createElement("div");
+    //    var lefts=10+(jianjieW-20)*Math.random();
+    //    var time=3*Math.random();
+    //    div.style.cssText="width:2px;height:2px;border-radius:50%;background:white;position:absolute;left:"+lefts+"px;top:-20px;transition:top 3s linear "+time+"s;-webkit-filter:blur(0.5px)";
+    //    jianjie[0].appendChild(div);
+    //    arr.push(div);
+    //}
+    //setTimeout(function(){
+    //    for(var i=0;i<arr.length;i++){
+    //        arr[i].style.top=jianjieH+"px";
+    //        arr[i].addEventListener("webkitTransitionEnd",function(){
+    //            this.style.transition="none";
+    //            this.style.top="-20px";
+    //            var time=3*Math.random();
+    //            var that=this;
+    //            setTimeout(function(){
+    //                that.style.transition="top 2s linear "+time+"s";
+    //                that.style.top=jianjieH+"px";
+    //            },0)
+    //        },false)
+    //    }
+    //},0)
 
     //=========================返回顶部==================================
     $("#top").css({
@@ -205,11 +205,11 @@ $(function(){
     //3d
     var els=$('.sample'),
         data=[
-            {translateX:'-500px',translateZ:'-400px'},
-            {translateX:'-300px',translateZ:'-200px'},
+            {translateX:'-400px',translateZ:'-400px'},
+            {translateX:'-200px',translateZ:'-200px'},
             {translateX:'0px',translateZ:'0px'},
-            {translateX:'300px',translateZ:'-200px'},
-            {translateX:'500px',translateZ:'-400px'}
+            {translateX:'200px',translateZ:'-200px'},
+            {translateX:'400px',translateZ:'-400px'}
         ],
         draw=function(){
             for(var i=0;i<els.length;i++){
@@ -219,5 +219,18 @@ $(function(){
         };
     draw();
     var td=setInterval( draw,2000 );
+
+    //function zoom(a){
+    //    var obj=$(a);
+    //    obj.onmouseover=function(){
+    //        this.style.zIndex=10;
+    //    }
+    //    obj.onmouseout=function(){
+    //        this.style.zIndex=0;
+    //    }
+    //}
+    //zoom(".sample");
+
+
 
 })
