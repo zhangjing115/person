@@ -441,7 +441,7 @@ header{
     color:rgb(127, 255, 255);
     font-weight: 400;
     font-size:35px;
-    font-family: 'Milonga', cursive;
+    /*font-family: 'Milonga', cursive;*/
 
     line-height: 133px;
 }
@@ -620,7 +620,49 @@ footer{
     background: url("../img/top1.png") no-repeat;
     background-size: cover;
 }
+.lianjie{
+    width:10%;
+    height:20%;
+    position:fixed;
+    right: 0;
+    top:40%;
+    background: url("../img/下载.png") no-repeat;
+}
+.lian1{
+    top:35%;
+}
+.lian2{
+    top:55%;
+}
+.ma{
+   width:100px;
+    height:100px;
+    background: red;
+    position: fixed;
+}
+.ma1{
+    top:30%;
+    right:10%;
+    background: url("../img/zuopin.png") no-repeat;
+    background-size: cover;
+    display: none;
+}
+.ma2{
+    top:50%;
+    right:10%;
+    background: url("../img/app.png") no-repeat;
+    background-size: cover;
+    display: none;
+}
 @media screen and (min-width:730px){
+    .lianjie{
+        width:5%;
+        height:10%;
+    }
+    .ma1,.ma2{
+        right:5%;
+    }
+
     .content{
         height:400px;
     }
@@ -692,6 +734,13 @@ footer{
 
 }
 @media screen and (min-width:1070px) {
+    .lianjie{
+        width:3%;
+        height:6%;
+    }
+    .ma1,.ma2{
+        right:3%;
+    }
     .block_title{
         font-size: 55px;
     }

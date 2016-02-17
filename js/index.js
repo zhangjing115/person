@@ -6,15 +6,18 @@ $(function(){
             $(".header1").css("display","none");
             $(".header2").css("display","block");
             $(".logo1").css("display","block");
-            $(".web").css("display","block");
-            $('.changjing').css("display","none");
         }else{
             $(".header1").css("display","block");
             $(".header2").css("display","none");
             $(".logo1").css("display","none");
+        }
+
+        if(clientW<1070){
+            $(".web").css("display","block");
+            $('.changjing').css("display","none");
+        }else{
             $(".web").css("display","none");
             $('.changjing').css("display","block");
-
 
         }
     })
@@ -230,6 +233,17 @@ $(function(){
     //    }
     //}
     //zoom(".sample");
+    $(".lian1").hover(function(){
+        $(".ma1").css("display","block");
+    },function(){
+        $(".ma1").css("display","none");
+    })
+
+    $(".lian2").hover(function(){
+        $(".ma2").css("display","block");
+    },function(){
+        $(".ma2").css("display","none");
+    })
 
 
 
