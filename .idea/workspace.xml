@@ -32,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49272728">
-              <caret line="329" column="55" selection-start-line="329" selection-start-column="55" selection-end-line="329" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.4490909">
+              <caret line="283" column="12" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -298,7 +298,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09909228" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -694,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49272728">
-          <caret line="329" column="55" selection-start-line="329" selection-start-column="55" selection-end-line="329" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.4490909">
+          <caret line="283" column="12" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
